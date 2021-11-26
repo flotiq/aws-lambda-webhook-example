@@ -1,0 +1,24 @@
+{
+  "name": "aws-lambda-webhook-example",
+  "version": "0.0.1",
+  "description": "This project shows how to use AWS Lambda to receive Flotiq webhook notification.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flotiq/aws-lambda-webhook-example.git"
+  },
+  "keywords": [
+    "FLotiq",
+    "Lambda",
+    "Webhook"
+  ],
+  "author": "Flotiq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flotiq/aws-lambda-webhook-example/issues"
+  },
+  "homepage": "https://github.com/flotiq/aws-lambda-webhook-example#readme",
+  "dependencies": {}
+}

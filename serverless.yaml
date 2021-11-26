@@ -1,0 +1,13 @@
+service: aws-lambda-webhook-example
+provider:
+  name: aws
+  lambdaHashingVersion: 20201221
+  runtime: nodejs14.x
+
+functions:
+  index:
+    handler: src/handler.hook
+    events:
+      - http:
+          method: post
+          path: /hook
